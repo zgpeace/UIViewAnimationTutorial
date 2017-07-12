@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AnimationCurvePicker.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) NSMutableArray *curvesList;
+@property (nonatomic, assign) NSInteger selectedCurveIndex;
+@property (nonatomic, strong) UIView *pickerView;
 
 
 @end

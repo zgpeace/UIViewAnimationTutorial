@@ -15,6 +15,11 @@
 		E2C67EB71F14C2B70002DF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C67EB51F14C2B70002DF82 /* LaunchScreen.storyboard */; };
 		E2C67EC21F14C2B70002DF82 /* AnimationMyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67EC11F14C2B70002DF82 /* AnimationMyTests.m */; };
 		E2C67ECD1F14C2B70002DF82 /* AnimationMyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67ECC1F14C2B70002DF82 /* AnimationMyUITests.m */; };
+		E2C67EDC1F14C3C30002DF82 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67EDB1F14C3C30002DF82 /* UIView+Animation.m */; };
+		E2C67EDF1F150D420002DF82 /* AnimationCurvePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67EDE1F150D420002DF82 /* AnimationCurvePicker.m */; };
+		E2C67EE11F150F5C0002DF82 /* AnimationCurvePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C67EE01F150F5C0002DF82 /* AnimationCurvePicker.xib */; };
+		E2C67EE41F15D1380002DF82 /* FakeHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C67EE31F15D1380002DF82 /* FakeHUD.m */; };
+		E2C67EE61F15D2310002DF82 /* FakeHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2C67EE51F15D2310002DF82 /* FakeHUD.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		E2C67EC81F14C2B70002DF82 /* AnimationMyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationMyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C67ECC1F14C2B70002DF82 /* AnimationMyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationMyUITests.m; sourceTree = "<group>"; };
 		E2C67ECE1F14C2B70002DF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C67EDA1F14C3C30002DF82 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		E2C67EDB1F14C3C30002DF82 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		E2C67EDD1F150D420002DF82 /* AnimationCurvePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCurvePicker.h; sourceTree = "<group>"; };
+		E2C67EDE1F150D420002DF82 /* AnimationCurvePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCurvePicker.m; sourceTree = "<group>"; };
+		E2C67EE01F150F5C0002DF82 /* AnimationCurvePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationCurvePicker.xib; sourceTree = "<group>"; };
+		E2C67EE21F15D1380002DF82 /* FakeHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHUD.h; sourceTree = "<group>"; };
+		E2C67EE31F15D1380002DF82 /* FakeHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHUD.m; sourceTree = "<group>"; };
+		E2C67EE51F15D2310002DF82 /* FakeHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FakeHUD.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				E2C67EAB1F14C2B70002DF82 /* AppDelegate.m */,
 				E2C67EAD1F14C2B70002DF82 /* ViewController.h */,
 				E2C67EAE1F14C2B70002DF82 /* ViewController.m */,
+				E2C67EDA1F14C3C30002DF82 /* UIView+Animation.h */,
+				E2C67EDB1F14C3C30002DF82 /* UIView+Animation.m */,
+				E2C67EE21F15D1380002DF82 /* FakeHUD.h */,
+				E2C67EE31F15D1380002DF82 /* FakeHUD.m */,
+				E2C67EE51F15D2310002DF82 /* FakeHUD.xib */,
+				E2C67EDD1F150D420002DF82 /* AnimationCurvePicker.h */,
+				E2C67EDE1F150D420002DF82 /* AnimationCurvePicker.m */,
+				E2C67EE01F150F5C0002DF82 /* AnimationCurvePicker.xib */,
 				E2C67EB01F14C2B70002DF82 /* Main.storyboard */,
 				E2C67EB31F14C2B70002DF82 /* Assets.xcassets */,
 				E2C67EB51F14C2B70002DF82 /* LaunchScreen.storyboard */,
@@ -246,9 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C67EE11F150F5C0002DF82 /* AnimationCurvePicker.xib in Resources */,
 				E2C67EB71F14C2B70002DF82 /* LaunchScreen.storyboard in Resources */,
 				E2C67EB41F14C2B70002DF82 /* Assets.xcassets in Resources */,
 				E2C67EB21F14C2B70002DF82 /* Main.storyboard in Resources */,
+				E2C67EE61F15D2310002DF82 /* FakeHUD.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C67EAF1F14C2B70002DF82 /* ViewController.m in Sources */,
+				E2C67EDC1F14C3C30002DF82 /* UIView+Animation.m in Sources */,
 				E2C67EAC1F14C2B70002DF82 /* AppDelegate.m in Sources */,
+				E2C67EDF1F150D420002DF82 /* AnimationCurvePicker.m in Sources */,
+				E2C67EE41F15D1380002DF82 /* FakeHUD.m in Sources */,
 				E2C67EA91F14C2B70002DF82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
